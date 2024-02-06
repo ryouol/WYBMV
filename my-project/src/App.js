@@ -1,7 +1,7 @@
-
+"use client";
 import { useState } from "react";
 
-export default function App() {
+export default function Page() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
@@ -23,11 +23,11 @@ export default function App() {
       "Are you absolutely certain?",
       "This could be a mistake!",
       "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
+      "STILL NO?!?!?!",
+      "WOW",
+      "You have no choice.",
+      "This Relationship is a dictatorship.",
+      "See you on Febuary 14th ;)",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];

@@ -23,11 +23,11 @@ export default function Page() {
       "Are you absolutely certain?",
       "This could be a mistake!",
       "Have a heart!",
-      "Don't be so cold!",
-      "Wouldn't you reconsider?",
-      "Too bad you have to",
-      "This partnership is an dictorship",
-      "See you on Febuary 14th :) ",
+      "STILL NO?!?!?!",
+      "WOW",
+      "You have no choice.",
+      "This Relationship is a dictatorship.",
+      "See you on Febuary 14th ;)",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
